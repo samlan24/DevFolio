@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>Allan Wanjiku| Software Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <title>Allan- Software Engineer&Technical Writer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta
       name="keywords"
@@ -23,64 +24,17 @@
     />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/code-solid.svg" />
+    <link rel="icon" type="image/png" href="./assets/images/code-solid.svg" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://allanwanjiku.tech/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Allan Wanjiku| Software Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://allanwanjiku.tech/assets/devfolio.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://allanwanjiku.tech" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta
-      property="twitter:title"
-      content="Allan Wanjiku| Software Developer"
-    />
-    <meta
-      property="twitter:description"
-      content="Allan Wanjiku | Software Engineer and Technical Writer specializing in React and fullstack web development. Explore my projects and technical content."
-    />
-
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://allanwanjiku.tech/assets/devfolio.png"
-    />
-
-    <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-
-    <!-- FontAwesome Icons link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script defer src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- Google tag (gtag.js) -->
@@ -98,272 +52,406 @@
       gtag("config", "G-ETRDPY1LYM");
     </script>
     <!-- End of Google Analytics -->
+<!--
+
+TemplateMo 562 Space Dynamic
+
+https://templatemo.com/tm-562-space-dynamic
+
+-->
   </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Allan Wanjiku</span>
-          <br />
-          A Sotware Engineer & Technical Writer
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#projects">View Projects</a>
-          <a
-            class="cta-btn cta-btn--hero"
-            target="_blank"
-            href="https://withallan.hashnode.dev/"
-            >Read Blog</a
-          >
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-    <!-- /END Hero Section -->
+  </div>
+  <!-- ***** Preloader End ***** -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/man-working-on-laptop.svg"
-              alt="Profile Image"
-              width="450"
-              height="350"
-            />
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h4>All<span>an</span></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About Me</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+              <li class="scroll-to-section"><a href="#blog">Blog</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact Me</a></li>
+              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact Now</a></div></li>
+            </ul>
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h6>Welcome to My Site</h6>
+                <h2>I Build <em>Web Apps</em> &amp; <span>Craft</span> Content</h2>
+                <p>I design and develop intuitive web applications that solve real-world problems. As a technical writer, I create clear and engaging content to simplify complex concepts for diverse audiences.</p>
+                <div class="social-profiles">
+                  <a href="https://x.com/allan_muchemi89" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://github.com/samlan24" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/allan-wanjiku/" target="_blank" class="social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/banner-right-image.png" alt="team meeting">
+              </div>
+            </div>
           </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              Hi, I'm Allan Wanjiku, a passionate software engineer and
-              technical write. I specialize in building fullstack applications,
-              particularly with React on the frontend, and have a strong
-              foundation in backend technologies like Flask and Nodejs. I enjoy
-              building efficient, user-friendly web applications, with a focus
-              on solving real-world problems.
-            </p>
-            <p class="about-wrapper__info-text">
-              As a technical writer, I love breaking down complex technical
-              concepts into clear, easy-to-understand content. My goal is to
-              help others understand and navigate the world of technology
-              through my writing, whether it's through tutorials, articles, or
-              documentation.
-            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <img src="assets/images/man-working-on-laptop.svg" alt="person graphic">
+          </div>
+        </div>
+        <div class="col-lg-8 align-self-center">
+          <div class="services">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-01.png" alt="reporting">
+                  </div>
+                  <div class="right-text">
+                    <h4>Frontend Development</h4>
+                    <p>Creating responsive, user-friendly web applications using React</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-02.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Backend Development</h4>
+                    <p>Building robust backend systems with Flask or Node.js, MySQL/MongoDB</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-03.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Technical Writing</h4>
+                    <p>Creating clear, concise technical content to simplify complex concepts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-04.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>System Administration</h4>
+                    <p>Configuring and optimizing server environments with Nginx</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </div>
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">
-                Buzzd - Artist and Song Recommendation App
-              </h3>
-              <p class="project-wrapper__text-info">
-                Buzzd is a dynamic web application designed to help music lovers
-                discover new songs and artists. By leveraging the Spotify and
-                Last.fm web APIs, the app provides personalized recommendations
-                based on a user's input.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://front-end-repo-seven.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a
-                  href="https://github.com/samlan24/buzzd"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+  <div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="left-image">
+            <img src="assets/images/services-left-image.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="section-heading">
+            <h2>Accelerate Your Business with Custom<em> Web App</em> Development &amp; <span>Technical</span> Writing</h2>
+            <p> Custom web apps streamline operations, enhance customer engagement, and position your business for growth in a competitive digital landscape. Clear, impactful technical writing builds trust, communicates value, and connects with your audience effectively. Let’s turn your vision into scalable solutions and compelling content that transform your business.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="first-bar progress-skill-bar">
+                <h4>Web App Development & Deployment</h4>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
               </div>
             </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/Screenshot_2024-09-25_18-19-42.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">
-                RentNest - Online Directory for House Agents
-              </h3>
-              <p class="project-wrapper__text-info">
-                RentNest is an online platform that connects users directly with
-                trusted house agents, eliminating the need to rely on social
-                media platforms like Facebook, where scams are prevalent. For
-                agents, the platform offers a hassle-free way to list their
-                services and properties, reaching potential clients with ease.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://youtu.be/umEs88JSAAo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a
-                  href="https://github.com/samlan24/online-directory"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+            <div class="col-lg-12">
+              <div class="second-bar progress-skill-bar">
+                <h4>Technical Writing</h4>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
               </div>
             </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/rentnest.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
+            <div class="col-lg-12">
+              <div class="third-bar progress-skill-bar">
+                <h4>Technical SEO</h4>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2>See What I Can <em>Do</em> &amp; What I <span>Provide</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="hidden-content">
+                <h4>Frontend Development</h4>
+                <p>Create responsive, user-friendly web applications using React.</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/man-working-on-laptop.svg" alt="">
+              </div>
             </div>
-          </article>
-          -->
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Want to work with me?</p>
-          <a
-            href="mailto:allan@allanwanjiku.tech"
-            class="cta-btn cta-btn--resume"
-            >Hire Me</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <!-- END Contact Section -->
-
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="https://twitter.com/allan_muchemi89"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/allan-wanjiku/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/samlan24"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
           </a>
         </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - By
-          <a href="#" rel="noopener noreferrer">Allan Wanjiku</a>. <br />Made
-          with &hearts;
-        </p>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="hidden-content">
+                <h4>Backend Development</h4>
+                <p>Build robust backend systems with Flask or Node.js, MySQL/MongoDB.</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/man-working-on-laptop.svg" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="hidden-content">
+                <h4>Technical Writing</h4>
+                <p>Create clear and concise technical content.</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/man-working-on-laptop.svg" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <div class="hidden-content">
+                <h4>Technical SEO</h4>
+                <p>Enhance Your Website with Technical SEO.</p>
+              </div>
+              <div class="showed-content">
+                <img src="assets/images/man-working-on-laptop.svg" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-    </footer>
-    <!-- END Footer Section -->
+    </div>
+  </div>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+  <div id="blog" class="our-blog section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Discover the  <em>Latest </em> Articles in My <span>Blog</span></h2>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="top-dec">
+            <img src="assets/images/blog-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="left-image">
+            <a href="https://blog.allanwanjiku.tech/understanding-mysql-triggers-syntax-and-usage-examples" target="_blank"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
+            <div class="info">
+              <div class="inner-content">
+                <ul>
+                  <li><i class="fa fa-calendar"></i> 2024</li>
+                  <li><i class="fa fa-users"></i> Allan</li>
+                  <li><i class="fa fa-folder"></i> Dev</li>
+                </ul>
+                <a href="https://blog.allanwanjiku.tech/understanding-mysql-triggers-syntax-and-usage-examples" target="_blank"><h4>MySQL Triggers: Syntax and Usage Examples</h4></a>
+                <p>A trigger is a predefined program that executes automatically when an INSERT...</p>
+                <div class="main-blue-button">
+                  <a href="https://blog.allanwanjiku.tech/" target="_blank">Discover More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="right-list">
+            <ul>
+              <li>
+                <div class="left-content align-self-center">
+                  <span><i class="fa fa-calendar"></i> 2024</span>
+                  <a href="https://blog.allanwanjiku.tech/the-http-protocol-foundation-of-web-communication" target="_blank"><h4>The HTTP Protocol</h4></a>
+                  <p>HTTP is the standard communication protocol used...</p>
+                </div>
+                <div class="right-image">
+                  <a href="https://blog.allanwanjiku.tech/the-http-protocol-foundation-of-web-communication" target="_blank"><img src="assets/images/web.jpg" alt=""></a>
+                </div>
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <span><i class="fa fa-calendar"></i>2024</span>
+                  <a href="https://blog.allanwanjiku.tech/a-gentle-introduction-to-flask-blueprints" target="_blank"><h4>A Gentle Introduction to Flask Blueprints</h4></a>
+                  <p>Flask is a Python web framework that allows developers to create web apps quickly and seamlessly...</p>
+                </div>
+                <div class="right-image">
+                  <a href="https://blog.allanwanjiku.tech/a-gentle-introduction-to-flask-blueprints" target="_blank"><img src="assets/images/blog-thumb-01.jpg" alt=""></a>
+                </div>
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <span><i class="fa fa-calendar"></i> 2024</span>
+                  <a href="https://blog.allanwanjiku.tech/what-happens-when-you-type-wwwgooglecom-in-your-browser-and-press-enter" target="_blank"><h4>Intro To Web Browsing</h4></a>
+                  <p>Have you ever wondered what happens when you type a domain name (like google.com)...</p>
+                </div>
+                <div class="right-image">
+                  <a href="https://blog.allanwanjiku.tech/what-happens-when-you-type-wwwgooglecom-in-your-browser-and-press-enter" target="_blank"><img src="assets/images/web2.jpg" alt=""></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Feel Free To Send Me a Message About Your Website Needs</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor incididunt ut labore et dolores</p>
+            <div class="phone-info">
+              <h4>For any enquiry, Email Me: <span><i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">allan@allanwanjiku.tech</a></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button ">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+            <div class="contact-dec">
+              <img src="assets/images/contact-decoration.png" alt="">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+          <p>© Copyright 2024 Allan &#10084;&#65039;. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/templatemo-custom.js"></script>
+
+</body>
 </html>
